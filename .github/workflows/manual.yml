@@ -7,12 +7,12 @@ on:
         default: Hello
         required: true
         descriptioin: A cheerful word
-    log-level:
-      type: choice
-      options: 
-        - info
-        - warn
-        - error
+      log-level:
+        type: choice
+        options: 
+          - info
+          - warn
+          - error
 jobs:
   run:
     runs-on: ubuntu-latest
